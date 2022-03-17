@@ -16,11 +16,8 @@
     "express-session": "^1.17.2",
     "g": "^2.0.1",
     "mongoose": "^6.2.7",
-    "dotenv": "^16.0.0"
-    
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"  
   },
   "engines": {
     "node": "16.14.1"
