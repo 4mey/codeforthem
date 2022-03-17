@@ -44,5 +44,5 @@ app.get("/register", (req, res) => {
         app.post("/signup",(req, res) => {
             res.render("/register")
             })
-let port= process.env.PORT || 5000
+let port= process.env.PORT || 3000
 app.listen(port, () => console.log('Server Started'))
