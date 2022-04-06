@@ -74,6 +74,12 @@ padding-right: 900px;
 }
 .btn{
     color: #000;
+    border: solid 2px;
+    border-color: rgb(19, 35, 85);
+    margin-top: 5px;
+}
+a{
+  text-decoration: none;
 }
 
 /* -----------------------SURVEY--------------------------- */
