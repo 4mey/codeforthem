@@ -44,5 +44,7 @@ app.get("/register", (req, res) => {
         app.post("/signup",(req, res) => {
             res.render("/register")
             })
+            const uri = process.env.MONGO_CONNECTION_STRING;
+const client = new MongoClient(uri);
 let port= process.env.PORT || 5000
 app.listen(port, () => console.log('Server Started'))
