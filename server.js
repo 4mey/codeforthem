@@ -35,10 +35,10 @@ app.set("view-engine", "ejs")
     res.redirect("/")
     }
 })
-app.get("/index.ejs", (req, res) => {
-    res.render("index.ejs")
+app.get("/", (req, res) => {
+    res.render("main.ejs")
     })
-app.get("/register", (req, res) => {
+app.get("/register.ejs", (req, res) => {
         res.render("register.ejs")
         })
         app.post("/signup",(req, res) => {
