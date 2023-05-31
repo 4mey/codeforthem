@@ -38,7 +38,7 @@ app.set("view-engine", "ejs")
 app.get("/", (req, res) => {
     res.render("main.ejs")
     })
-app.get("/register.ejs", (req, res) => {
+app.get("/register", (req, res) => {
         res.render("register.ejs")
         })
         app.post("/signup",(req, res) => {
